@@ -3,12 +3,12 @@ import random
 import math
 
 # Title and Introduction
-st.title("Idealistic Realist's Enhanced Betting Model")
+st.title("🌐Idealistic Realist's Enhanced Betting Model")
 st.write("Maximizing potential profits while minimizing risk in virtual sports betting.")
 
 # Input: Bankroll Setup
 st.header("Set Your Bankroll")
-bankroll = st.number_input("Enter your starting bankroll (KES)", min_value=500.0, step=50.0, value=1000.0)
+bankroll = st.number_input("Enter your starting bankroll (KES)", min_value=50.0, step=50.0, value=100.0)
 bet_percentage = st.slider("Percentage of bankroll to bet per game (%)", 1, 10, 5)
 
 # Markets to Focus On
